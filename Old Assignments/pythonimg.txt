@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>About Python</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="text_size">
+                <ul>
+                    <li><p>Text Size:</p></li>
+                    <li><a href="">Normal</a></li>
+                    <li><a href="">Large</a></li>
+                </ul>
+            </div>
+            <div class="header">
+                <img src="file:///C:/Users/yahya/Documents/Coding%20Dojo/pythonimg.png" height=200 />
+                <!--search bar-->
+                <!--go button-->
+            </div>
+            <div class="navigation">
+                            <ul>
+                                <li><a href=""><h2>About</h2></a></li>
+                                <li><a href="">Downloads</a></li>
+                                <li><a href="">Documentation</a></li>
+                                <li><a href="">Community</a></li>
+                                <li><a href="">News</a></li>
+                                <li><a href="">Events</a></li>
+                            </ul>
+                </ul>
+            </div>
+            <div class="main_content">
+            <div class ="index">
+                <ul>
+                    <li><p><a href="">Docs</a></p></li>
+                    <li><p><a href="">Audio/Visual</a></p></li>
+                    <li><p><a href="">Beginner's Guide</a></p></li>
+                    <li><p><a href="">Developer's Guide</a></p></li>
+                    <li><p><a href="">PEP Index</a></p></li>
+                    <li><p><a href="">Python Books</a></p></li>
+                    <li><p><a href="">FAQ</a></p></li>
+                </ul>
+            </div>
+            <div class="description">
+             <p>First appearing in 1991, Python is a general-purpose, high-level, interpreted programming language
+                 whose design focus emphasizes code readability. Whether for processing/analyzing data to powering
+                 many well-known applications. Python is not only a great language for new programmers but also powerful
+                 enough for seasoned developers building whatever they can think</p>
+            </div>
+            <div class="zen">
+                <ul>
+                    <li><p><h3>Beautiful is better than ugly;</h3></p></li>
+                    <li><p><h3>Explicit is better than implicit;</h3></p></li>
+                    <li><p><h3>Simple is better than complex;</h3></p></li>
+                    <li><p><h3>Complex is better than complicated;</h3></p></li>
+                    <li><p><h3>Readability counts;</h3></p></li>
+                    <li><p><h3>The Zen of Python;</h3></p></li>
+                </ul>
+            </div>
+            <div class="faqs">
+                <div class="getting_started">
+                    <p>Getting Started</p>
+                </div>
+                <div class="applications">
+                    <p>Applications</p>
+                </div>
+            </div>
+            <div class="footer">
+                <ul>
+                    <li><p>Help and General Contact</p></li>
+                    <li><p>Diversity Initiatives</p></li>
+                    <li><p>Submit Website Bugs</p></li>
+                </ul>
+            </div>
+        </div><!-- end of wrapper -->
+    </body>
+</html>

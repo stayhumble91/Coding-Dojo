@@ -1,0 +1,10 @@
+C:\Users\yahya\Desktop\dojoassignments\webfundamentals\about.txt
+C:\Users\yahya\Desktop\dojoassignments\webfundamentals\CSS
+C:\Users\yahya\Desktop\dojoassignments\webfundamentals\GIT
+C:\Users\yahya\Desktop\dojoassignments\webfundamentals\HTML
+C:\Users\yahya\Desktop\dojoassignments\webfundamentals\javascript
+C:\Users\yahya\Desktop\dojoassignments\webfundamentals\CSS\about.txt
+C:\Users\yahya\Desktop\dojoassignments\webfundamentals\GIT\about.txt
+C:\Users\yahya\Desktop\dojoassignments\webfundamentals\HTML\about.txt
+C:\Users\yahya\Desktop\dojoassignments\webfundamentals\HTML\indentation
+C:\Users\yahya\Desktop\dojoassignments\webfundamentals\javascript\about.txt

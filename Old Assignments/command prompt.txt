@@ -1,0 +1,121 @@
+Microsoft Windows [Version 10.0.14393]
+(c) 2016 Microsoft Corporation. All rights reserved.
+
+C:\Users\yahya>cd desktop
+
+C:\Users\yahya\Desktop>mkdir test
+
+C:\Users\yahya\Desktop>cd
+C:\Users\yahya\Desktop
+
+C:\Users\yahya\Desktop>cd test
+
+C:\Users\yahya\Desktop\test>copy NUL index.html
+        1 file(s) copied.
+
+C:\Users\yahya\Desktop\test>copy NUL styles.css
+        1 file(s) copied.
+
+C:\Users\yahya\Desktop\test>copy NUL commands.txt
+        1 file(s) copied.
+
+C:\Users\yahya\Desktop\test>copy index.html index_2.html
+        1 file(s) copied.
+
+C:\Users\yahya\Desktop\test>del stlyles.css
+Could Not Find C:\Users\yahya\Desktop\test\stlyles.css
+
+C:\Users\yahya\Desktop\test>del styles.css
+
+C:\Users\yahya\Desktop\test>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 4A12-C542
+
+ Directory of C:\Users\yahya\Desktop\test
+
+03/20/2017  05:10 PM    <DIR>          .
+03/20/2017  05:10 PM    <DIR>          ..
+03/20/2017  05:07 PM                 0 commands.txt
+03/20/2017  05:06 PM                 0 index.html
+03/20/2017  05:06 PM                 0 index_2.html
+               3 File(s)              0 bytes
+               2 Dir(s)  23,704,707,072 bytes free
+
+C:\Users\yahya\Desktop\test>cd ..
+
+C:\Users\yahya\Desktop>mkdir destination
+
+C:\Users\yahya\Desktop>cd test
+
+C:\Users\yahya\Desktop\test>move index_2.html ../destination/index_2.html
+        1 file(s) moved.
+
+C:\Users\yahya\Desktop\test>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 4A12-C542
+
+ Directory of C:\Users\yahya\Desktop\test
+
+03/20/2017  05:14 PM    <DIR>          .
+03/20/2017  05:14 PM    <DIR>          ..
+03/20/2017  05:07 PM                 0 commands.txt
+03/20/2017  05:06 PM                 0 index.html
+               2 File(s)              0 bytes
+               2 Dir(s)  23,704,375,296 bytes free
+
+C:\Users\yahya\Desktop\test>cd ..
+
+C:\Users\yahya\Desktop>cd
+C:\Users\yahya\Desktop
+
+C:\Users\yahya\Desktop>cd destination
+
+C:\Users\yahya\Desktop\destination>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 4A12-C542
+
+ Directory of C:\Users\yahya\Desktop\destination
+
+03/20/2017  05:14 PM    <DIR>          .
+03/20/2017  05:14 PM    <DIR>          ..
+03/20/2017  05:06 PM                 0 index_2.html
+               1 File(s)              0 bytes
+               2 Dir(s)  23,704,375,296 bytes free
+
+C:\Users\yahya\Desktop\destination>cd ..
+
+C:\Users\yahya\Desktop>rd /s destination
+destination, Are you sure (Y/N)? y
+
+C:\Users\yahya\Desktop>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 4A12-C542
+
+ Directory of C:\Users\yahya\Desktop
+
+03/20/2017  05:18 PM    <DIR>          .
+03/20/2017  05:18 PM    <DIR>          ..
+01/27/2017  10:09 PM            50,271 '.jpg
+01/29/2017  05:07 PM    <DIR>          ahmed
+03/11/2017  12:49 PM    <DIR>          assignmentone-master
+03/20/2017  10:30 AM    <DIR>          Coding Dojo
+03/15/2017  06:38 PM           159,439 DD.png
+10/20/2016  09:11 PM            57,668 Dependent UW.docx
+03/18/2017  02:04 PM               761 Downloads - Shortcut.lnk
+03/17/2017  05:25 PM           145,098 frssty3d.png
+03/19/2017  05:55 PM           156,261 frssty3d0001.png
+03/20/2017  11:04 AM            50,240 Html Preview.PNG
+01/29/2017  05:21 PM               612 index,html - Shortcut.lnk
+03/19/2017  12:28 PM           806,784 kid.png
+03/19/2017  05:24 PM           252,211 NEWTEMPBYBABY (1).png
+03/20/2017  12:00 PM        19,576,398 NEWTEMPBYBABY (1).psd
+09/20/2015  09:12 PM            81,353 PERSONAL USE ONLY.png
+03/15/2017  05:31 PM    <DIR>          Photoshop
+03/18/2017  02:03 PM           799,781 r.png
+01/17/2017  03:15 PM           446,313 Screenshot.PNG
+03/20/2017  05:14 PM    <DIR>          test
+02/13/2017  07:01 PM    <DIR>          Troubleshooting guide
+              14 File(s)     22,583,190 bytes
+               8 Dir(s)  23,704,252,416 bytes free
+
+C:\Users\yahya\Desktop>

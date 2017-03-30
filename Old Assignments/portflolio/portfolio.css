@@ -1,0 +1,61 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+    background-color: rebeccapurple; 
+    color: black;
+
+}
+#header{
+ height: 100px;
+ width: 970px;
+ background-color: white;
+ margin-bottom: 15px;
+ 
+}
+#image{
+    height: 400px;
+}
+
+#about{
+ height: 400px;
+ width: 500px;
+ background-color: white;
+ display: inline-block; vertical-align: top;
+ padding: 15px;
+ 
+}
+ 
+.portfoliosection img{
+  width: 60px;
+}
+.portfoliosection #bigImg{
+  width: 100%;
+}
+.portfoliosection h2{
+    background-color: grey;
+
+}
+
+.portfoliosection{
+ width: 280px;
+ background-color: white;
+ display: inline-block;
+ margin-right: 10px;
+ vertical-align: top;
+ 
+ 
+}
+
+#container{
+    width: 970px;
+
+}
+.buttonstyle
+{
+    background-color: green;
+    color: white;
+    
+}
