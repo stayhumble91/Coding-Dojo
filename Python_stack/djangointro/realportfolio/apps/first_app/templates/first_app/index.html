@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> My Portfolio </title>
+    {% load staticfiles %}
+    <link rel='stylesheet' href='{% static 'first_app/styles.css' %}'>
+</head>
+<body>
+    <div id = "header"> Hi,Im Yahya Mohamud </div>
+    <div id = "header_two"> Welcome to My Portfolio </div>
+    <form action = "/new_user" method = "post">
+        {% csrf_token %}
+        <input type = "text" name = "first_name">
+        <input type = "submit" value = "Submit">
+    </form>
+    <div id = "wrapper">
+        <div id = "main_one">
+            <span class = "change"> <a href="localhost:8000/projects">Projects</a> </span>
+            <span class = "change"> <a href="localhost:8000/about">About Me</a> </span>
+            <span class = "change"> <a href="localhost:8000/testimonials">Testimonials</a> </span>
+        </div>
+        <div id = "main_two">
+            <div class="Box">
+                <p> I have a variety of projects both personal and contact. They are built using Python, Swift, and Javascript. <p>
+            </div>
+            <div class="Box">
+                 <p> A little about my background and why I do what I do. </p>
+            </div>
+            <div class="Box">
+                 <p> What my clients and mentors have to say about my projects and work ethic. </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

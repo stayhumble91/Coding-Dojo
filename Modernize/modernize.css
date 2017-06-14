@@ -1,0 +1,132 @@
+modernize.css
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+    background-color: black; 
+    color: black;
+
+}
+#header{
+ height: 100px;
+ width: 970px;
+ background-color: white;
+ margin-bottom: 15px;
+ 
+}
+#image{
+    height: 400px;
+}
+
+#about{
+ height: 400px;
+ width: 500px;
+ background-color: black;
+ display: inline-block; vertical-align: top;
+ padding: 15px;
+ 
+}
+
+span{color: grey;
+
+display: inline-block;
+}
+
+#navigation{ display: inline-block;
+vertical-align: right;
+background-color: background-image: -webkit-gradient(linear, left top, left bottom, from(slategrey),blackolor));
+background-image: -webkit-linear-gradient(top, slategrey, black);
+background-image: -moz-linear-gradient(top, slategrey, black);
+background-image: linear-gradient(to bottom, slategrey, black);
+
+width:970px;
+
+}
+
+h5{
+    display: inline-block;
+}
+
+h2{
+    display: inline-block;
+     color: white;
+
+}
+
+
+
+
+P{
+    color: white;
+display: inline-block;
+}
+
+.portfoliosection{
+ width: 280px;
+ background-color: white; 
+ display: inline-block;
+ margin-right: 10px;
+ vertical-align: top;
+ 
+ 
+}
+
+#container{
+    width: 970px;
+
+}
+
+.buttonstyle
+{
+    background-color: orange;
+    color: white; 
+    font-size: 2em;
+    font-style: none;
+    border-radius: 15px;
+
+
+}
+
+a{font-style: none;
+
+}
+.section{
+    width: 300px;
+    display: inline-block;
+}
+
+.port{
+display: inline-block;
+}
+
+#portfolio{
+    display: inline-block;
+}
+
+.port h3{
+    color: orange;
+
+}
+
+.port p{
+    color: white;
+}
+
+#middle content{
+    display: inline-block;
+}
+
+h3{
+    color: orange;
+}
+
+.port{
+     display: inline-block;
+    width: 300px;
+}
+
+em{
+    postion: relative; left: 150px;
+}
